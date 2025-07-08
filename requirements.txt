@@ -150,7 +150,7 @@ stack-data==0.6.3
 sympy==1.14.0
 tensorboard==2.19.0
 tensorboard-data-server==0.7.2
-tensorflow==2.19.0
+tensorflow==2.18.0
 termcolor==1.1.0
 terminado==0.18.1
 threadpoolctl==3.5.0

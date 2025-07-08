@@ -1,0 +1,14 @@
+*.pyc
+__pycache__/
+db.sqlite3
+*.log
+.env
+.venv/
+env/
+venv/
+*.swp
+*.swo
+*.DS_Store
+.vscode/
+django>=5.2.4
+Pillow>=10.0.0

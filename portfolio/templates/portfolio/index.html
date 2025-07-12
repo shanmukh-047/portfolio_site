@@ -1,0 +1,37 @@
+{% extends "portfolio/base.html" %}
+{% block title %}Home - Shanmukh Hebballi{% endblock %}
+
+{% block content %}
+<section class="hero">
+  <h1>Hi, I'm <span class="highlight">Shanmukh Hebballi</span> 👋</h1>
+  <p class="tagline">AI/ML enthusiast & full-stack web developer focused on solving real-world problems through intelligent systems and deep learning.</p>
+  
+  <div class="buttons">
+    <a href="/projects/" class="btn">My Projects</a>
+    <a href="/resume/" class="btn">Download Resume</a>
+  </div>
+</section>
+
+<section class="skills">
+  <h2>What I Do</h2>
+  <ul>
+    <li>🧠 Deep Learning using PyTorch & TensorFlow</li>
+    <li>📊 EEG, ECG & Speech Signal Processing</li>
+    <li>🌐 Django Web Development (Full Stack)</li>
+    <li>🧮 Data Structures, Algorithms, and SQL</li>
+  </ul>
+</section>
+
+<section class="featured-projects">
+  <h2>Featured Projects</h2>
+  <ul>
+    <li><strong>AI Threat Detection System:</strong> Real-time object detection for public safety. <a href="/projects/">View</a></li>
+    <li><strong>Heart Health from Voice:</strong> Predict heart risk using speech signals. <a href="/projects/">View</a></li>
+    <li><strong>Digital Police App:</strong> Complaint tracking & crime data platform. <a href="/projects/">View</a></li>
+  </ul>
+</section>
+
+<section class="contact-cta">
+  <p>📫 I’m currently open to opportunities. <a href="/contact/">Let’s Connect</a> if you’re hiring or would like to collaborate!</p>
+</section>
+{% endblock %}
